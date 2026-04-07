@@ -227,7 +227,7 @@ else:
             # Sumamos al mes correspondiente
             retenciones_mensuales[mes] += adicional_mes
 
-    print("Tu impuesto anual proyectado es: S/." + str(imp_anual_proyectado))
+    print("Tu impuesto anual proyectado es: S/." + str(round(imp_anual_proyectado,2)))
     print("")
     print("La retención que te corresponde por cada mes es la siguiente.")
     print("")
